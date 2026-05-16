@@ -1,0 +1,123 @@
+@use 'color';
+@mixin banner-title {
+  font-family: 'Patua One';
+  font-size: 40px;
+  font-weight: normal;
+  color: color.$dark;
+  line-height: normal;
+  margin: 0;
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+@mixin section-title {
+  font-family: 'Patua One';
+  font-size: 36px;
+  font-weight: normal;
+  color: color.$dark;
+  line-height: 52px;
+}
+@mixin banner-description {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(color.$dark, 0.5);
+  line-height: 32px;
+}
+@mixin section-description {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(color.$dark, 0.5);
+  line-height: 32px;
+}
+@mixin section-description-small {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(color.$dark, 0.6);
+  line-height: 32px;
+}
+@mixin section-subtitle {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-weight: 600;
+  color: color.$dark;
+  line-height: 22px;
+}
+@mixin price-title {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: 600;
+  color: color.$primary;
+  line-height: 18px;
+}
+@mixin testimonial-content {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  color: color.$dark;
+  line-height: 26px;
+}
+@mixin testimonial-person-name {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  color: color.$black;
+  line-height: 24px;
+}
+@mixin testimonial-person-job {
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(color.$dark, 0.6);
+  line-height: 18px;
+}
+@mixin footer-copyright {
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(color.$dark, 0.6);
+  line-height: 18px;
+}
+@mixin footer-title {
+  font-family: 'Patua One';
+  font-size: 18px;
+  font-weight: 400;
+  color: color.$dark;
+  line-height: 22px;
+}
+@mixin footer-description {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(color.$dark, 0.6);
+  line-height: 26px;
+}
+@mixin footer-link {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(color.$dark, 0.6);
+  line-height: 26px;
+}
+
+.banner-title {
+  @include banner-title;
+}
+.section-title {
+  @include section-title();
+}
+.banner-description {
+  @include banner-description();
+}
+.section-description {
+  @include section-description();
+}
+.section-description-small {
+  @include section-description-small();
+}
+.section-subtitle {
+  @include section-subtitle();
+}

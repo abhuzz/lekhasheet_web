@@ -1,0 +1,1625 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@400;500&family=Source+Sans+Pro:wght@400;600&display=swap");
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background: #F6F8FC;
+  min-height: 300vh;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+main {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.banner-title {
+  font-family: "Patua One";
+  font-size: 40px;
+  font-weight: normal;
+  color: #0e144a;
+  line-height: normal;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .banner-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+.section-title {
+  font-family: "Patua One";
+  font-size: 36px;
+  font-weight: normal;
+  color: #0e144a;
+  line-height: 52px;
+}
+
+.banner-description {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(14, 20, 74, 0.5);
+  line-height: 32px;
+}
+
+.section-description {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(14, 20, 74, 0.5);
+  line-height: 32px;
+}
+
+.section-description-small {
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(14, 20, 74, 0.6);
+  line-height: 32px;
+}
+
+.section-subtitle {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e144a;
+  line-height: 22px;
+}
+
+header {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 640px) {
+  header {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  header {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  header {
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+}
+@media screen and (min-width: 1850px) {
+  header {
+    padding-left: 256px;
+    padding-right: 256px;
+  }
+}
+header {
+  user-select: none;
+  padding-top: 24px;
+  position: sticky;
+  z-index: 99;
+  top: 0px;
+  left: 0px;
+}
+header nav {
+  padding: 16px 24px;
+  background-color: #ffffff;
+  box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 1024px) {
+  header nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+}
+header nav .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  header nav .header {
+    width: fit-content;
+  }
+}
+header nav .header .nav-brand {
+  width: fit-content;
+}
+header nav .header .nav-brand img {
+  height: 36px;
+}
+header nav .header .nav-toggle {
+  background-image: url(../../images/icons/hamburger.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+header nav .header .nav-toggle.close {
+  background-image: url(../../images/icons/x.svg);
+}
+@media screen and (min-width: 1024px) {
+  header nav .header .nav-toggle {
+    display: none;
+  }
+}
+header nav .nav-item.hide {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  header nav .nav-item.hide {
+    display: flex;
+  }
+}
+header nav .nav-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media screen and (min-width: 1024px) {
+  header nav .nav-item {
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+  }
+}
+header nav .nav-item a.nav-link {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.5);
+}
+header nav .nav-item a.nav-link:hover {
+  color: #1F2E8A;
+}
+header nav .nav-item a.nav-link.active {
+  color: #10C96B;
+  font-weight: 600;
+}
+header nav .nav-item a.button-link {
+  background-color: #1F2E8A;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+header nav .nav-item a.button-link:hover {
+  box-shadow: 0px 20px 30px rgba(31, 46, 138, 0.15);
+  background-color: rgb(26.3224852071, 39.0591715976, 117.1775147929);
+}
+
+footer {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 640px) {
+  footer {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  footer {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  footer {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  footer {
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+}
+@media screen and (min-width: 1850px) {
+  footer {
+    padding-left: 256px;
+    padding-right: 256px;
+  }
+}
+footer {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+@media screen and (min-width: 640px) {
+  footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  footer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 72px;
+  }
+}
+footer aside.start {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-basis: 100%;
+}
+@media screen and (min-width: 1024px) {
+  footer aside.start {
+    flex-basis: 60%;
+  }
+}
+footer aside.start article {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+footer aside.start article .section-title {
+  font-family: "Patua One";
+  font-size: 36px;
+  font-weight: normal;
+  color: #0e144a;
+  line-height: 52px;
+  font-size: 32px;
+  line-height: 1.2;
+}
+footer aside.start article .section-description {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(14, 20, 74, 0.5);
+  line-height: 32px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+footer aside.start .button-link-group {
+  display: flex;
+  gap: 16px;
+  width: fit-content;
+}
+footer aside.start .button-link-group a {
+  display: block;
+  width: fit-content;
+  transition: transform 0.2s ease;
+}
+footer aside.start .button-link-group a:hover {
+  transform: translateY(-2px);
+}
+footer aside.start .button-link-group a img {
+  height: 48px;
+  display: block;
+  width: auto;
+}
+footer aside.start .footer-link-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+footer aside.start .footer-link-list a {
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(14, 20, 74, 0.6);
+  line-height: 26px;
+  font-size: 14px;
+  color: rgba(14, 20, 74, 0.6);
+  transition: color 0.2s ease;
+}
+footer aside.start .footer-link-list a:hover {
+  color: #1F2E8A;
+}
+footer .about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-basis: 100%;
+}
+@media screen and (min-width: 1024px) {
+  footer .about {
+    flex-basis: 35%;
+    align-items: flex-end;
+    text-align: right;
+  }
+}
+footer .about > img {
+  height: 36px;
+  width: fit-content;
+}
+footer .about .description {
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(14, 20, 74, 0.6);
+  line-height: 26px;
+  font-size: 14px;
+  line-height: 22px;
+}
+footer .about .copyright {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(14, 20, 74, 0.6);
+  line-height: 18px;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.primary-button {
+  text-align: center;
+  display: block;
+  padding: 16px 48px;
+  width: fit-content;
+  background-color: #1F2E8A;
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.primary-button:hover {
+  background-color: rgb(26.3224852071, 39.0591715976, 117.1775147929);
+}
+
+.secondary-button {
+  padding: 16px 48px;
+  display: block;
+  text-align: center;
+  width: fit-content;
+  background-color: rgba(55, 214, 103, 0.1);
+  border: 1px solid rgba(55, 214, 103, 0.2);
+  color: #37D667;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.secondary-button:hover {
+  background-color: rgba(55, 214, 103, 0.25);
+}
+
+section#banner {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 640px) {
+  section#banner {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#banner {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#banner {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  section#banner {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  section#banner {
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+}
+@media screen and (min-width: 1850px) {
+  section#banner {
+    padding-left: 256px;
+    padding-right: 256px;
+  }
+}
+section#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+  gap: 60px;
+}
+@media screen and (min-width: 1024px) {
+  section#banner {
+    flex-direction: row;
+  }
+}
+section#banner aside {
+  flex-basis: 100%;
+}
+@media screen and (min-width: 1024px) {
+  section#banner aside {
+    flex-basis: 50%;
+  }
+}
+section#banner aside.start {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+section#banner aside.start article {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+section#banner aside.start .button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+section#banner aside.start .button-group button, section#banner aside.start .button-group a {
+  width: unset;
+}
+@media screen and (min-width: 1024px) {
+  section#banner aside.start .button-group {
+    flex-direction: row;
+  }
+  section#banner aside.start .button-group button, section#banner aside.start .button-group a {
+    width: fit-content;
+  }
+}
+section#banner aside.end {
+  position: relative;
+}
+section#banner aside.end img {
+  width: 100%;
+}
+
+section#why-use-this-app {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 640px) {
+  section#why-use-this-app {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#why-use-this-app {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#why-use-this-app {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#why-use-this-app {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  section#why-use-this-app {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  section#why-use-this-app {
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+}
+@media screen and (min-width: 1850px) {
+  section#why-use-this-app {
+    padding-left: 256px;
+    padding-right: 256px;
+  }
+}
+section#why-use-this-app {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+@media screen and (min-width: 640px) {
+  section#why-use-this-app {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#why-use-this-app {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#why-use-this-app {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#why-use-this-app {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  section#why-use-this-app {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+section#why-use-this-app {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+@media screen and (min-width: 1024px) {
+  section#why-use-this-app {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+section#why-use-this-app > aside.start {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+@media screen and (min-width: 1024px) {
+  section#why-use-this-app > aside.start {
+    flex-basis: 33.333%;
+  }
+}
+section#why-use-this-app > aside.start > article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section#why-use-this-app > aside.start > .app-info-list {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+section#why-use-this-app > aside.start > .app-info-list .divider {
+  width: 1px;
+  height: 50px;
+  background-color: rgba(14, 20, 74, 0.15);
+}
+section#why-use-this-app > aside.start > .app-info-list .app-info-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+section#why-use-this-app > aside.start > .app-info-list .app-info-list-item .label {
+  font-size: 14px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  color: rgba(14, 20, 74, 0.6);
+}
+section#why-use-this-app > aside.start > .app-info-list .app-info-list-item .value {
+  font-size: 28px;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  color: #0e144a;
+}
+section#why-use-this-app > aside.end {
+  flex-basis: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  section#why-use-this-app > aside.end {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#why-use-this-app > aside.end {
+    flex-basis: 58.333%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+section#why-use-this-app > aside.end .reason-list-item {
+  padding: 40px;
+  background-color: rgba(31, 46, 138, 0.05);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid transparent;
+}
+section#why-use-this-app > aside.end .reason-list-item:hover {
+  border: 1px solid rgba(31, 46, 138, 0.2);
+  transform: translateY(-8px);
+}
+section#why-use-this-app > aside.end .reason-list-item .header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section#why-use-this-app > aside.end .reason-list-item .header .icon-card {
+  padding: 12px;
+  border-radius: 6px;
+  background-color: rgba(61, 180, 242, 0.2);
+  width: fit-content;
+  height: fit-content;
+}
+section#why-use-this-app > aside.end .reason-list-item .header .icon-card img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+section#why-use-this-app > aside.end .reason-list-item .header .title {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Source Sans Pro";
+  font-weight: 28px;
+  color: #0e144a;
+}
+section#why-use-this-app > aside.end .reason-list-item .description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+  font-weight: 28px;
+  color: rgba(14, 20, 74, 0.6);
+}
+
+section#feature {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 640px) {
+  section#feature {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#feature {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#feature {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#feature {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  section#feature {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  section#feature {
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+}
+@media screen and (min-width: 1850px) {
+  section#feature {
+    padding-left: 256px;
+    padding-right: 256px;
+  }
+}
+section#feature {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+@media screen and (min-width: 640px) {
+  section#feature {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#feature {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#feature {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#feature {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  section#feature {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+section#feature {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media screen and (min-width: 1024px) {
+  section#feature {
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+  }
+}
+section#feature > aside {
+  flex-basis: 100%;
+}
+@media screen and (min-width: 1024px) {
+  section#feature > aside {
+    flex-basis: 50%;
+  }
+}
+section#feature > aside.start img {
+  width: 100%;
+}
+section#feature > aside.end {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+section#feature > aside.end > article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section#feature > aside.end .feature-list {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  section#feature > aside.end .feature-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+section#feature > aside.end .feature-list .feature-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section#feature > aside.end .feature-list .feature-list-item > img {
+  width: 36px;
+  height: 36px;
+}
+section#feature > aside.end .feature-list .feature-list-item > article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section#price {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 640px) {
+  section#price {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#price {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#price {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#price {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  section#price {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  section#price {
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+}
+@media screen and (min-width: 1850px) {
+  section#price {
+    padding-left: 256px;
+    padding-right: 256px;
+  }
+}
+section#price {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+@media screen and (min-width: 640px) {
+  section#price {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#price {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#price {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#price {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  section#price {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+section#price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  background-color: #F6F8FC;
+}
+@media screen and (min-width: 1280px) {
+  section#price {
+    gap: 72px;
+  }
+}
+section#price > article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 550px;
+}
+section#price .price-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  section#price .price-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#price .price-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+section#price .price-list .price-list-item {
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+}
+@media screen and (min-width: 768px) {
+  section#price .price-list .price-list-item {
+    padding: 56px 48px;
+  }
+}
+section#price .price-list .price-list-item .title {
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 600;
+  color: #1F2E8A;
+  line-height: 18px;
+}
+section#price .price-list .price-list-item > article {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+section#price .price-list .price-list-item > article .price {
+  font-family: "Patua One";
+  font-size: 36px;
+  font-weight: normal;
+  color: #0e144a;
+  line-height: 52px;
+}
+section#price .price-list .price-list-item > article .description {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(14, 20, 74, 0.5);
+  line-height: 32px;
+}
+section#price .price-list .price-list-item ul.feature-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section#price .price-list .price-list-item ul.feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(14, 20, 74, 0.5);
+  line-height: 32px;
+  color: #0e144a;
+}
+section#price .price-list .price-list-item ul.feature-list li .icon-card {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(16, 201, 107, 0.05);
+  border-radius: 999px;
+}
+section#price .price-list .price-list-item ul.feature-list li .icon-card img {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+section#price .price-list .price-list-item .primary-button {
+  width: unset;
+  margin-top: 20px;
+}
+section#price > .message {
+  text-align: center;
+  max-width: 550px;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(14, 20, 74, 0.6);
+  line-height: 32px;
+}
+section#price > .message span {
+  font-weight: 600;
+}
+
+section#testimonial {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 640px) {
+  section#testimonial {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#testimonial {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#testimonial {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#testimonial {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  section#testimonial {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  section#testimonial {
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+}
+@media screen and (min-width: 1850px) {
+  section#testimonial {
+    padding-left: 256px;
+    padding-right: 256px;
+  }
+}
+section#testimonial {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+@media screen and (min-width: 640px) {
+  section#testimonial {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#testimonial {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#testimonial {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  section#testimonial {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  section#testimonial {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+section#testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  background: #F6F8FC;
+}
+@media screen and (min-width: 1280px) {
+  section#testimonial {
+    gap: 72px;
+  }
+}
+section#testimonial > article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 550px;
+  text-align: center;
+}
+section#testimonial ul.testimonial-list {
+  column-count: 1;
+  gap: 30px;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  section#testimonial ul.testimonial-list {
+    column-count: 2;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section#testimonial ul.testimonial-list {
+    column-count: 3;
+  }
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item {
+  height: fit-content;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 8px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+  transition-delay: 0.2s;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .star-list {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .star-list .star-card {
+  background-color: #F6F8FC;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .star-list .star-card img {
+  width: 14px;
+  display: block;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .star-list .star-card.active {
+  background-color: #FFC93F;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .content {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  color: #0e144a;
+  line-height: 26px;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .user img.avatar {
+  width: 55px;
+  height: 55px;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .user > article {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .user > article .name {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 24px;
+}
+section#testimonial ul.testimonial-list li.testimonial-list-item .user > article .job {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(14, 20, 74, 0.6);
+  line-height: 18px;
+}
+
+[data-animate^=fade][data-animate^=fade] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-delay: 0.2s;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+[data-animate^=fade][data-animate^=fade].animate {
+  opacity: 1;
+  transform: none;
+}
+
+[data-animate=fade-up] {
+  transform: translate3d(0, 100px, 0);
+}
+
+[data-animate=fade-down] {
+  transform: translate3d(0, -100px, 0);
+}
+
+[data-animate=fade-right] {
+  transform: translate3d(-100px, 0, 0);
+}
+
+[data-animate=fade-left] {
+  transform: translate3d(100px, 0, 0);
+}
+
+/*# sourceMappingURL=index.css.map */

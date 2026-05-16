@@ -1,0 +1,15 @@
+@use './reset';
+@use './main';
+@use './typography';
+
+@use 'components/navbar';
+@use 'components/footer';
+@use 'components/button';
+
+@use 'sections/banner';
+@use 'sections/why_use_this_app';
+@use 'sections/feature';
+@use 'sections/price';
+@use 'sections/testimonial';
+
+@use 'animation';

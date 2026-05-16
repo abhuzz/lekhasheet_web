@@ -1,0 +1,30 @@
+@use '../color';
+.primary-button {
+  text-align: center;
+  display: block;
+  padding: 16px 48px;
+  width: fit-content;
+  background-color: color.$primary;
+  color: color.$white;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  &:hover {
+    background-color: darken($color: color.$primary, $amount: 5%);
+  }
+}
+.secondary-button {
+  padding: 16px 48px;
+  display: block;
+  text-align: center;
+  width: fit-content;
+  background-color: rgba(color.$secondary, 0.1);
+  border: 1px solid rgba(color.$secondary, 0.2);
+  color: color.$secondary;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  &:hover {
+    background-color: rgba(color.$secondary, 0.25);
+  }
+}
