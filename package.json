@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "build": "tsc && sass src/styles/scss/index.scss src/styles/css/index.css && rimraf out && mkdir out && cp index.html privacy-policy.html terms-and-conditions.html out/ && cp -R src out/",
     "dev": "npx rimraf src/scripts/js && concurrently \"tsc --watch\" \"live-server\" \"sass --watch src/styles/scss/index.scss src/styles/css/index.css\""
   },
   "author": "",
