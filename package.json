@@ -2,12 +2,16 @@
   "name": "LekhaSheet",
   "version": "1.0.0",
   "description": "",
-  "main": "src/scripts/index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "dev": "npx rimraf src/scripts/js && concurrently \"tsc --watch\" \"live-server\" \"sass --watch src/styles/scss/index.scss src/styles/css/index.css\""
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
   "devDependencies": {
     "concurrently": "^7.2.1",
     "live-server": "^1.2.2",
