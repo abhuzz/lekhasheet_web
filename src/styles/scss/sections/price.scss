@@ -45,7 +45,7 @@ section#price {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      height: fit-content;
+      height: 100%;
 
       @media screen and (min-width: 768px) {
         padding: 56px 48px;
@@ -107,19 +107,19 @@ section#price {
 
       &.free {
         background-color: color.$white;
-        border: 2px solid rgba(color.$secondary, 0.5);
-        border-top: 6px solid color.$secondary;
-        box-shadow: 0 12px 30px rgba(color.$secondary, 0.15);
+        border: 2px solid rgba(color.$primary, 0.5);
+        border-top: 6px solid color.$primary;
+        box-shadow: 0 12px 30px rgba(color.$primary, 0.15);
         transform: translateY(-4px);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
 
         &:hover {
           transform: translateY(-8px);
-          box-shadow: 0 20px 40px rgba(color.$secondary, 0.25);
+          box-shadow: 0 20px 40px rgba(color.$primary, 0.25);
         }
 
         .title {
-          color: color.$secondary;
+          color: color.$primary;
         }
       }
 
